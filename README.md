@@ -34,7 +34,7 @@ In [InterpolationFilters.pdf] an overview of the architectures implemented has b
 [filtering approach]: <https://github.com/Jak94/InterpolationFilters/blob/master/filtering_example.pptx>
 [InterpolationFilters.pdf]: <https://github.com/Jak94/InterpolationFilters/blob/master/InterpolationFilters.pdf>
 
-## Adders exploration 
+## Added approximate/correct adders exploration by Stefania Preatto
 Several options for finding an appropriate internal structure for the adders involved in the filtering process are explored in order to further enhance the architecture in speed.
 Concerning the Chroma Legacy architecture, parallel & prefix correct adders configuration that employs a Ladner-Fischer prefix-processing stage results the most convenient choice in terms of speed enhancement, at the cost of a negligible area overhead and power dissipation. As regards the Luma Legacy architecture, the adoption of an approximate solution involving Generic Accuracy Configurable Adders is proposed: this results in a good trade-off between performances and precision at the entire HEVC system level.
 Other options are applied to the DCT-IF Approximate architecture. For the Luma Approximate structure, a slight speed improvement with a reduction in power and occupied area is earned through the employment of Han-Carlson parallel & prefix correct adders, while for the Chroma Approximate architecture the starting structure is maintained.
